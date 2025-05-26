@@ -1,0 +1,32 @@
+# node_modules (dependências instaladas)
+node_modules/
+
+# pastas de saída dos testes do Cypress
+cypress/screenshots/
+cypress/videos/
+
+# configurações de ambiente local
+.env
+.env.local
+.env.*.local
+
+# arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+
+# cobertura de testes (caso use alguma ferramenta como nyc ou cypress-coverage)
+coverage/
+.nyc_output/
+
+# arquivos gerados pelo sistema
+dist/
+build/
